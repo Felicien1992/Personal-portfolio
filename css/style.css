@@ -519,18 +519,12 @@ nav .fas {
 
 @media only screen and (max-width:1000px) {
 
-    /* #header{
-        /* background-image: url(./images/fefe.jpg);
-    } */
-
-    #header img {
-        position: absolute;
-        right: 55%;
-        top: 100px;
-        width: 300px;
-        height: 450px;
-        left: 55px;
-        border-radius: 15px;
+   #header{
+         background-image: url(./images/fefe.jpg);
+    } 
+    .container img {
+        display: block;
+        position: relative;
     }
 
     .header-text {
