@@ -17,22 +17,23 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    /*background-image: url(/images/fefe\ 2.jpg);
-    *//*background-size: cover;
-    */background-position: center;
+    background-image: url(/images/css5.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    border-radius: 80%;
+    /* border-radius: 80%; */
     position: relative;
-    
+
 }
-#header img{
+
+/* #header img{
     position: absolute;
     border-radius: 50%;
     right: 15%;
     top: 100px;
     width: 20%;
     height: 80%;
-}
+} */
 
 nav #logo {
     font-size: 60px;
@@ -44,7 +45,10 @@ nav #logo span {
 
 .container {
     padding: 10px 10%;
+}
 
+.container img {
+    display: none;
 }
 
 nav {
@@ -144,7 +148,7 @@ nav ul li a:hover::after {
     cursor: pointer;
     position: relative;
     font-family: cursive;
-    color: rgb(43, 143, 230);
+    color: #fff;
 }
 
 .tab-links::after {
@@ -216,14 +220,14 @@ nav ul li a:hover::after {
 
 .services-list div a {
     text-decoration: none;
-    color: rgb(43, 143, 230);
+    font-family: cursive;
+    color: #fff;
     font-size: 20px;
     margin-top: 20px;
     display: inline-block;
     /* background: #c58c8c; */
     height: 30px;
     border-radius: 5px;
-
 }
 
 .services-list div:hover {
@@ -419,6 +423,10 @@ nav .fas {
     /* #header{
         /* background-image: url(./images/fefe.jpg);
     } */
+    #header {
+        background: #262626;
+
+    }
 
     .header-text {
         margin-top: 100%;
@@ -427,6 +435,23 @@ nav .fas {
 
     .header-text h1 {
         font-size: 30px;
+    }
+
+    .container img {
+        display: block;
+        position: relative;
+    }
+
+    .container nav ul li {
+        transition: 0.5s;
+
+    }
+
+    .container nav ul li:hover {
+        scale: 1.2;
+        background: #262626;
+        border-radius: 10px;
+        text-align: center;
     }
 
     nav .fas {
@@ -498,14 +523,16 @@ nav .fas {
         /* background-image: url(./images/fefe.jpg);
     } */
 
-    #header img{
+    #header img {
         position: absolute;
-        border-radius: 50%;
         right: 55%;
         top: 100px;
         width: 300px;
-        height: 500px;
+        height: 450px;
+        left: 55px;
+        border-radius: 15px;
     }
+
     .header-text {
         margin-top: 100%;
         font-size: 16px;
