@@ -428,6 +428,25 @@ nav .fas {
 
 /* ===============css for smoll scrin========================== */
 
+@media only screen and (max-width:230px){
+    #fefe img {
+        position: absolute;
+        border-radius: 50%;
+        max-width: 200px;
+        max-height: 120px;
+        top: 90px;
+        left: 80px;
+    }
+    .about-col-1 img {
+    /*width: 100%;
+    */
+    border-radius: 15px;
+    position: absolute;
+    top: 150px;
+    
+}
+}
+
 @media only screen and (max-width:460px) {
 
     /* #header{
