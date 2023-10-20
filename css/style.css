@@ -442,9 +442,14 @@ nav .fas {
     */
     border-radius: 15px;
     position: absolute;
-    top: 150px;
-    
+    top: 150px; 
 }
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+    position: absolute;
+}
+
 }
 
 @media only screen and (max-width:460px) {
