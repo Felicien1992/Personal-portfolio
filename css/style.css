@@ -470,14 +470,21 @@ nav .fas {
         background: #262626;
 
     }
+    .about-col-1 img {
+        /*width: 100%;
+        */
+        border-radius: 15px;
+        position: absolute;
+        top: 130px; 
+    }
 
-    #fefe img {
+    #fefe {
         position: absolute;
         border-radius: 50%;
-        max-width: 200px;
+        /* max-width: 100px; */
         max-height: 120px;
-        top: 90px;
-        left: 80px;
+        top: 0px;
+        left: 10px;
     }
 
     .header-text {
