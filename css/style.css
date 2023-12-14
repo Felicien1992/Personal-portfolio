@@ -28,15 +28,10 @@ body {
 #fefe img {
   position: absolute;
   border-radius: 20px;
-  max-width: 400px;
+  max-width: 350px;
   top: 150px;
   right: 300px;
-  max-width: 350px;
-  min-width: 150px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  min-height: 300px;
 }
 
 /* #header img{
