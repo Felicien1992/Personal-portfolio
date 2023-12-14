@@ -1,128 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="http://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="http://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <h1 id="logo"><span>F</span>elicien</h1>
+      <div class="container">
+        <nav>
+          <h1 id="logo"><span>F</span>elicien</h1>
 
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
-                </ul>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
 
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <!-- <img src="images/css6.jpg" class="foto"> -->
-            <div class="header-text">
-                <p>Web Developer</p>
-                <h1>Hi, I'm <span>Felicien</span><br>From Burundi</h1>
-            </div>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!-- <img src="images/css6.jpg" class="foto"> -->
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Felicien</span><br />Mukesharugamba<br />From Burundi</h1>
         </div>
-
+      </div>
     </div>
     <!-- <img src="images/FEFE.jpeg" width="300px" height="600px"> -->
-
 
     <!-- =================about======================== -->
 
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/css1.jpg">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>My name is Felicien MUKESHARUGAMBA. I was born in Burundi, and I am currently 31 years old. I now
-                        reside in Rwanda within the Mahama refugee camp. In 2014, I successfully completed my high
-                        school education with a focus on IT Maintenance.
-                        I'm excited to share that I am one of the students who have been granted the opportunity to
-                        study at Alight Mahama Coding School. Through this program, I've acquired a diverse skill set,
-                        including proficiency in HTML, CSS, and JavaScript, and I continue to expand my knowledge base
-                        in various other areas.
-                        As a frontend developer, I am eager to apply my skills and expertise to create dynamic and
-                        engaging web applications. I am actively seeking new opportunities in the field of frontend
-                        development, and I'm excited to contribute my skills to projects that will allow me to grow as a
-                        developer and make a meaningful impact.</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UX/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
-                            <li><span>App Development</span><br>Building Android/iOS app</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute.</li>
-                            <li><span>2019 - 2021</span><br>Team leader at StarApp LLC.</li>
-                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at coin Digital Ltd.</li>
-                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2016</span><br>UI/UX Design Training at ET Institute.</li>
-                            <li><span>2016</span><br>MBA from MIT Bangalore</li>
-                            <li><span>2014</span><br>BBA from ISM Bangalore</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/fefe1.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My name is Felicien MUKESHARUGAMBA. I was born in Burundi, and I
+              am currently 31 years old. I now reside in Rwanda within the
+              Mahama refugee camp. In 2014, I successfully completed my high
+              school education with a focus on IT Maintenance. I'm excited to
+              share that I am one of the students who have been granted the
+              opportunity to study at Alight Mahama Coding School. Through this
+              program, I've acquired a diverse skill set, including proficiency
+              in HTML, CSS, and JavaScript, and I continue to expand my
+              knowledge base in various other areas. As a frontend developer, I
+              am eager to apply my skills and expertise to create dynamic and
+              engaging web applications. I am actively seeking new opportunities
+              in the field of frontend development, and I'm excited to
+              contribute my skills to projects that will allow me to grow as a
+              developer and make a meaningful impact.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web / App Interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li><span>Full-Stack</span><br />Front-end & Back-end</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2015</span><br />Security & Protocol as Facilitator at
+                  UNHCR
+                </li>
+                <li>
+                  <span>2017 - 2020</span><br />Team leader & Trainner as Peer
+                  Educator at SAVE The CHILDREN INTERNATION ONG (Sexual
+                  Reproductive Health/Right (SRH/R) Project)
+                </li>
+                <li>
+                  <span>2021 - 2022</span><br />Team leader & Trainner at PLAN
+                  INTERNATIONAL ONG (Play Matters Project).
+                </li>
+                <li>
+                  <span>2023 - Training</span><br />UI/UX Design Training at
+                  Mahama Cording School.<br />Front-end & Back-end (HTML / CSS /
+                  JavaScript / Node js / React js).
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2001 - 2007</span><br />Ecole Primaire de KINAMA</li>
+                <li><span>2008 - 2011</span><br />Lycee Municipal de KINAMA</li>
+                <li>
+                  <span>2012 - 2015</span><br />Diplome A2<br />Informatique de
+                  Maintenance(Section).<br />At Lycee Technique de Carama (LTC)
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- ===============services========================== -->
 
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fas fa-code"></i>
-                    <h2>Front-end</h2>
-                    <p>I am front-end developer, I can build the portion of websites and web applications the part
-                        users see and interact with. And I can create websites and applications using web
-                        languages such as HTML, CSS, and JavaScript that allow users to access and interact with the
-                        site or app.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fas fa-crop-alt"></i>
-                    <h2>Back-end</h2>
-                    <p>Olso I am back-end web developer I can responsible for server-side web application logic and
-                        integration of
-                        the work. I am write the web services and
-                        APIs.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fab fa-app-store"></i>
-                    <h2>Full stack</h2>
-                    <p>In general I am Full stack developers because I work on building the front end and back end of a
-                        website or a web
-                        application Like software developers</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <!-- <div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Front-end</h2>
+            <p>
+              I am front-end developer, I can build the portion of websites and
+              web applications the part users see and interact with. And I can
+              create websites and applications using web languages such as HTML,
+              CSS, and JavaScript that allow users to access and interact with
+              the site or app.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>Back-end</h2>
+            <p>
+              Olso I am back-end web developer I can responsible for server-side
+              web application logic and integration of the work. I am write the
+              web services and APIs.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Full stack</h2>
+            <p>
+              In general I am Full stack developers because I work on building
+              the front end and back end of a website or a web application Like
+              software developers
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <!-- <div>
                     <i class="fas fa-crop-alt"></i>
                     <h2>UI/UX Design</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, adipisci necessitatibus? Cum modi
@@ -130,97 +162,172 @@
                         saepe ut totam nemo voluptates.</p>
                     <a href="#">Learn more</a>
                 </div> -->
-            </div>
         </div>
+      </div>
     </div>
 
     <!-- ===========portfolio=========================== -->
 
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/social-media.jpg">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Social Platform Is Safest? All in all, it seems that Facebook , Instagram and so on have the
-                            best
-                            security features out of the most popular social media platforms. </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/music-app.jpg">
-                    <div class="layer">
-                        <h3>Music App</h3>
-                        <p>Music Player with powerful equalizer, Quick search all your music files and music videos/MV,
-                            customize background skin and themes, is the best free music player, over millions downloads
-                            in all over the world, now free download music player/audio player. </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/online-shop.jpg">
-                    <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The e-commerce platform has become synonymous with the shopping experience it better to use
-                            Online Shopping. </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <!-- <div class="work">
-                    <img src="images/training (1).jpg">
-                    <div class="layer">
-                        <h3>Training of Web Developer</h3>
-                        <p>The app connects you the talented people around the world.
-                            Download it from play store. </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div> -->
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/project8.JPG" />
+            <div class="layer">
+              <h3>Chat App</h3>
+              <p>
+                Click the link if you wont to see more
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
             </div>
+          </div>
+          <div class="work">
+            <img src="images/project5.JPG" />
+            <div class="layer">
+              <h3>Mahama Coding School Website</h3>
+              <p>
+                Click the link if you wont to see more
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/project4.JPG" />
+            <div class="layer">
+              <h3>Counter App</h3>
+              <p>
+                Click the link if you wont to see more
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/project3.jpg" />
+            <div class="layer">
+              <h3>Color Flipper App</h3>
+              <p>
+                Click the link if you wont to see more
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+           <div class="work">
+                    <img src="images/project2.JPG">
+                    <div class="layer">
+                        <h3>To-Do List App</h3>
+                        <p>
+                          Click the link if you wont to see more
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="images/project6.JPG">
+                    <div class="layer">
+                        <h3>Random-Password Generator App</h3>
+                        <p>
+                          Click the link if you wont to see more
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="images/project7.JPG">
+                    <div class="layer">
+                        <h3>Age Calculator App</h3>
+                        <p>
+                          Click the link if you wont to see more
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="images/project1.JPG">
+                    <div class="layer">
+                        <h3>Name Generator App</h3>
+                        <p>
+                          Click the link if you wont to see more
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project9.JPG">
+                    <div class="layer">
+                        <h3>Note App</h3>
+                        <p>
+                          Click the link if you wont to see more
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project10.JPG">
+                    <div class="layer">
+                        <h3>Special Nav-Bar</h3>
+                        <p>
+                          Click the link if you wont to see more
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
         </div>
         <a href="#" class="btn">See more</a>
-    </div>
+      </div>
     </div>
 
     <!-- ================contact========================== -->
 
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fas fa-paper-plane"></i>felicienmukesharugamba@gmail.com</p>
-                    <p><i class="fas fa-phone-square-alt"></i>+250784340197</p>
-                    <div class="social-icons">
-                        <a href="http://facebook.com/"><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-twitter-square"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-linkedin"></i></a>
-                    </div>
-                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fas fa-paper-plane"></i>felicienmukesharugamba@gmail.com
+            </p>
+            <p><i class="fas fa-phone-square-alt"></i>+250784340197</p>
+            <div class="social-icons">
+              <a href="http://facebook.com/"><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter-square"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
             </div>
+            <a href="images/FelicienCV.docx" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
         </div>
-        <div class="copyright">
-            <p>copyright & felicienmukesharugamba@gmail.com<i class="fas fa-heart"></i> Web Developer</p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright by Felicien Mukesharugamba<i class="fas fa-heart"></i>
+          <br />Web Developer
+        </p>
+      </div>
     </div>
     <div id="fefe">
-        <img src="images/FEFE2.jpeg">
-
+      <img src="images/fefe7.jpg" />
     </div>
 
     <script src="js/style.js"></script>
-
-</body>
-
+  </body>
 </html>
