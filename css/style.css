@@ -293,7 +293,7 @@ nav ul li a:hover::after {
   margin-bottom: 20px;
 }
 
-.layer i {
+.layer a {
   margin-top: 20px;
   color: #ff004f;
   text-decoration: none;
