@@ -21,17 +21,17 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    /* position: relative; */
 }
 
-#fefe img {
+/* #fefe img {
   position: absolute;
   border-radius: 20px;
   max-width: 350px;
   top: 150px;
   right: 300px;
   min-height: 300px;
-}
+} */
 
 /* #header img{
     position: absolute;
@@ -124,9 +124,13 @@ nav ul li a:hover::after {
   flex-wrap: wrap;
 }
 
+.about-col-1{
+  flex-basis: 35%;
+}
+
 .about-col-1 img {
-  max-width: 350px;
-  border-radius: 20px;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .about-col-2 {
