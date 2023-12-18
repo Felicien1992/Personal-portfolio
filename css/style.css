@@ -382,7 +382,7 @@ nav ul li a:hover::after {
 }
 
 form input,
-textarea {
+form textarea {
   width: 100%;
   border: 0;
   outline: none;
