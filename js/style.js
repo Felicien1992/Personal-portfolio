@@ -23,3 +23,21 @@ function closemenu() {
   sidemeu.style.right = '-200px'
 }
 
+//******************************************************* */
+
+const sheets = SpreadsheetApp.openByUrl(
+  'https://docs.google.com/spreadsheets/d/1_Kbk7n8J6VF4G5av7A8G2PfimfqBeOZdd-LN8X9SZT8/edit#gid=0'
+)
+const sheet = sheets.getSheetByName('Sheet1')
+
+function doPost(e) {
+  let data = e.parameter
+
+  sheet.appendRow([
+    data.Name,
+    data.Email,
+    data.Message,
+  ])
+  return ContentService.createTextOutput('Success!!!')
+}
+
