@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script src="https://kit.fontawesome.com/bbc0f8b49c.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/bbc0f8b49c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <div id="header">
       <div class="container">
         <nav>
-          <h1 id="logo"><span>F</span>elicien</h1>
+          <h1 id="logo"><span>F</span>elicien.</h1>
 
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
@@ -306,14 +309,14 @@
             >
           </div>
           <div class="contact-right">
-            <form>
-              <input type="text" name="Name" placeholder="Your Name" required >
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
               <input
                 type="email"
                 name="Email"
                 placeholder="Your Email"
                 required
-              >
+              />
               <textarea
                 name="Message"
                 rows="6"
@@ -321,6 +324,7 @@
               ></textarea>
               <button type="submit" class="btn btn2">Submit</button>
             </form>
+            <span id="msg"></span>
           </div>
         </div>
       </div>
@@ -332,6 +336,25 @@
       </div>
     </div>
 
+    <script>
+      const scriptURL =
+        'https://script.google.com/macros/s/AKfycbx0WmwqGZoZwBHLA2scgWmbgt65TNOEu0b16rF4is7zwSTqYEa8XlcMY425Ruf52jGIGA/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById('msg')
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch((error) => console.error('Error!', error.message))
+      })
+    </script>
     <script src="js/style.js"></script>
   </body>
 </html>
