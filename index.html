@@ -307,7 +307,8 @@
             >
           </div>
           <div class="contact-right">
-            <form name="submit-to-google-sheet" id="survey-form">
+            <form id="survey-form">
+              <!--  name="submit-to-google-sheet" -->
               <input type="text" name="Name" placeholder="Your Name" required />
               <input
                 type="email"
@@ -320,7 +321,7 @@
                 rows="6"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
+              <button type="submit" id="submit" class="btn btn2">Submit</button>
             </form>
             <span id="msg"></span>
           </div>
@@ -334,7 +335,7 @@
       </div>
     </div>
 
-    <script>
+    <!-- <script>
       const scriptURL =
         'https://script.google.com/macros/s/AKfycbx0WmwqGZoZwBHLA2scgWmbgt65TNOEu0b16rF4is7zwSTqYEa8XlcMY425Ruf52jGIGA/exec'
       const form = document.forms['submit-to-google-sheet']
@@ -352,7 +353,7 @@
           })
           .catch((error) => console.error('Error!', error.message))
       })
-    </script>
+    </script> -->
     <script src="js/style.js"></script>
   </body>
 </html>

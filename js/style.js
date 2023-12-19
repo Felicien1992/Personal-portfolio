@@ -24,20 +24,27 @@ function closemenu() {
 }
 
 //******************************************************* */
+// Send the form to GOOGLE SCRIPT to be foreded to GOOGLE SHEET
 
-const sheets = SpreadsheetApp.openByUrl(
-  'https://docs.google.com/spreadsheets/d/1_Kbk7n8J6VF4G5av7A8G2PfimfqBeOZdd-LN8X9SZT8/edit#gid=0'
-)
-const sheet = sheets.getSheetByName('Sheet1')
+let form = document.querySelector('#survey-form')
 
-function doPost(e) {
-  let data = e.parameter
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
 
-  sheet.appendRow([
-    data.Name,
-    data.Email,
-    data.Message,
-  ])
-  return ContentService.createTextOutput('Success!!!')
-}
+  document.querySelector('#submit').value = 'Submiting...'
+  let data = new FormData(form)
 
+  fetch(
+    'https://script.google.com/macros/s/AKfycbwvXRpIKoR3PSsrFecOLUt165qzqX2UAnGbwGv0CzYG_PefRaywXCpUCqd-GmGda-pz/exec',
+    {
+      method: 'POST',
+      body: data,
+    }
+  )
+    .then((res) => res.text())
+    .then((data) => {
+      document.querySelector('#msg').innerHTML = data
+      document.querySelector('#submit').value = 'Submit'
+      window.open('index.html', '_blank')
+    })
+})
