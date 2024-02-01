@@ -17,11 +17,11 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(/images/BBBBBVGU.png);
+  /* background-image: url(/images/BBBBBVGU.png);
    background-size: cover;
-  /* background-position: center; */
+  /* background-position: center; 
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: black; */
 }
 nav #logo {
   font-size: 60px;
@@ -91,6 +91,16 @@ nav ul li a:hover::after {
 .header-text h1 span {
   color: #ff004f;
 }
+.king{
+  display: flex;
+  justify-content: space-between;
+}
+.king img{
+  width: 450px;
+  height: 600px;
+
+}
+
 
 /* ==========about=================== */
 
@@ -409,10 +419,10 @@ nav .fas {
 
 @media only screen and (max-width: 800px) {
   #header {
-    background-image: url(/images/BBBBBVGU.png);
+    /* background-image: url(/images/BBBBBVGU.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
   .header-text {
     font-size: 16px;
