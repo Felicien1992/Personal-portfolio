@@ -96,9 +96,9 @@ nav ul li a:hover::after {
   justify-content: space-between;
 }
 .king img{
-  width: 450px;
-  height: 600px;
-
+  width: 400px;
+  height: 500px;
+  margin-top: 50px;
 }
 
 
@@ -418,12 +418,13 @@ nav .fas {
 /* ===============css for smoll scrin========================== */
 
 @media only screen and (max-width: 800px) {
-  #header {
-    /* background-image: url(/images/BBBBBVGU.png);
+  /* #header {
+     background-image: url(/images/BBBBBVGU.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
-  }
+    background-repeat: no-repeat; 
+  } */
+
   .header-text {
     font-size: 16px;
     margin-top: 100%;
