@@ -491,7 +491,6 @@ nav .fas {
 @media only screen and (max-width: 230px){
 .header-text {
     font-size: 13px;
-    background: #61b752;
   }
   .header-text h1 {
     font-size: 20px;
@@ -624,6 +623,10 @@ nav .fas {
 .contact-left p {
   margin-top: 20px;
   font-size: 15px;
+}
+
+#portfolio {
+  padding: 0px 0;
 }
 
 }
