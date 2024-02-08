@@ -615,5 +615,9 @@ nav .fas {
   margin-top: 50px;
 }
 
-
+.contact-left p i {
+  color: #ff004f;
+  margin-right: 10px;
+  font-size: 15px;
+}
 }
