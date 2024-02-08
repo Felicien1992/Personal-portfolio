@@ -554,4 +554,9 @@ nav .fas {
   nav #logo {
   font-size: 30px;
 }
+
+.king img{
+  display: none;
+}
+
 }
