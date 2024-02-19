@@ -419,7 +419,7 @@ nav .fas {
 
 @media only screen and (max-width: 800px) {
   /* #header {
-     background-image: url(/images/BBBBBVGU.png);
+    background-image: url(../images/fefe@2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -488,7 +488,7 @@ nav .fas {
   }
 }
 
-@media only screen and (max-width: 230px){
+@media only screen and (max-width: 200px){
 .header-text {
     font-size: 13px;
   }
