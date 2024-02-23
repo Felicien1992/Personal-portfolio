@@ -512,7 +512,7 @@ nav .fas {
 }
 }
 
-@media only screen and (max-width: 286px){
+@media only screen and (max-width: 280px){
 .header-text {
     font-size: 13px;
   }
