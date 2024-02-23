@@ -708,4 +708,8 @@ nav ul {
   color: #fff;
   transition: background 0.5s;
 }
+
+.work-list h3,p{
+  display: none;
+}
 }
