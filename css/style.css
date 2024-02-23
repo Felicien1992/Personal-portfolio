@@ -512,7 +512,7 @@ nav .fas {
 }
 }
 
-@media only screen and (max-width: 200px){
+@media only screen and (max-width: 220px){
 .header-text {
     font-size: 13px;
   }
@@ -577,10 +577,6 @@ nav .fas {
 
   nav #logo {
   font-size: 30px;
-}
-
-.king img{
-  display: none;
 }
 
 #services {
@@ -653,4 +649,47 @@ nav .fas {
   padding: 0px 0;
 }
 
+/* ================ */
+
+.king{
+  width: auto;
+  /* background: #fff; */
+  display: grid; 
+}
+
+.header-text{
+  /* background: #61b752; */
+  margin-top: 20px;
+}
+
+.king img{
+  /* background: #b54769; */
+  max-width: 100%;
+  max-height: 250px;
+  margin-top: 0;
+}
+
+.container {
+  padding:10%;
+}
+#email{
+  display: none;
+}
+nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -50px;
+    width: 50%;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+}
 }
