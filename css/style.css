@@ -692,4 +692,8 @@ nav ul {
   font-size: 20px;
   position: relative;
 }
+
+.social-icons a{
+  font-size: 25px;
+}
 }
