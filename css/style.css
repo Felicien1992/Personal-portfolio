@@ -659,7 +659,7 @@ nav .fas {
 
 .header-text{
   /* background: #61b752; */
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .king img{
@@ -709,7 +709,7 @@ nav ul {
   transition: background 0.5s;
 }
 
-.work-list h3,p{
+.h3,.p{
   display: none;
 }
 }
