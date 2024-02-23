@@ -665,8 +665,8 @@ nav .fas {
 .king img{
   /* background: #b54769; */
   max-width: 100%;
-  max-height: 250px;
-  margin-top: 0;
+  max-height: 240px;
+  margin-top: 10px;
 }
 
 .container {
