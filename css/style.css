@@ -136,6 +136,10 @@ nav ul li a:hover::after {
   font-size: 20px;
 }
 
+.about-col-2 .span{
+  color: #b54769;
+}
+
 .sub-title {
   font-size: 60px;
   font-weight: 600;
