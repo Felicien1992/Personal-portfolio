@@ -23,8 +23,11 @@ body {
   background-repeat: no-repeat;
   background-color: black; */
 }
+
+
 nav #logo {
   font-size: 60px;
+  font-family: cursive;
 }
 
 nav #logo span {
@@ -86,6 +89,14 @@ nav ul li a:hover::after {
 .header-text h1 {
   font-size: 60px;
   margin-top: 20px;
+}
+
+.header-text .name{
+  font-family: cursive;
+}
+.header-text .nam{
+  color: #fff;
+  font-family: cursive;
 }
 
 .header-text h1 span {
